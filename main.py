@@ -101,4 +101,5 @@ if __name__ == '__main__':
     plt.plot(trainPredictPlot, label="train data")
     plt.plot(testPredictPlot, label="test data")
     plt.legend(loc="upper left")
+    plt.savefig('passenger.png')
     plt.show()
